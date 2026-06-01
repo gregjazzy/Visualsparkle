@@ -9,6 +9,10 @@ const stack = [
   { tag: 'Language', label: 'Python', sub: 'FastAPI · Pandas · NumPy' },
   { tag: 'LLM', label: 'OpenAI', sub: 'GPT-4 · GPT-5 · API' },
   { tag: 'LLM', label: 'Anthropic', sub: 'Claude · Tool Use' },
+  { tag: 'Web3', label: 'Solidity', sub: 'Smart contracts · EVM' },
+  { tag: 'Web3', label: 'viem · wagmi · ethers', sub: 'Typed Web3 clients' },
+  { tag: 'Web3', label: 'Foundry · Hardhat', sub: 'Test · Fuzz · Deploy' },
+  { tag: 'Web3', label: 'The Graph · Tenderly', sub: 'Indexing · Tracing' },
   { tag: 'Backend', label: 'API Design', sub: 'REST · GraphQL · gRPC' },
   { tag: 'Databases', label: 'Postgres · Redis', sub: 'SQL · pgvector · cache' },
   { tag: 'Infra', label: 'Docker · K8s', sub: 'Serverless · Containers' },
@@ -33,8 +37,8 @@ export function About() {
           {[
             { k: lang === 'fr' ? 'Rôle' : 'Role', v: 'Independent Contractor' },
             { k: 'Title', v: 'Full-Stack Software Engineer' },
-            { k: 'Stack', v: 'TS · Python · React · Node' },
-            { k: 'Focus', v: 'AI · Digital Content' },
+            { k: 'Stack', v: 'TS · Python · React · Node · Solidity' },
+            { k: 'Focus', v: 'AI · Digital Content · Web3' },
             { k: lang === 'fr' ? 'Langues' : 'Languages', v: 'EN · FR' },
             { k: 'Mode', v: lang === 'fr' ? '100% à distance' : 'Fully remote' },
           ].map((r) => (

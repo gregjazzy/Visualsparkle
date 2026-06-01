@@ -131,10 +131,11 @@ export function Home() {
       <section className="border-y border-white/5 bg-ink-900/40 py-6">
         <Marquee
           items={[
-            'TypeScript', 'Python', 'React · Next.js', 'OpenAI · GPT-5',
-            'Anthropic · Claude', 'System Design', 'API Architecture',
-            'Postgres · pgvector', 'CI/CD · GitHub Actions',
-            'Custom Interactive Software', 'Prompt Engineering', 'Data Analytics',
+            'TypeScript', 'Python', 'React · Next.js', 'Node',
+            'OpenAI · GPT-5', 'Anthropic · Claude',
+            'Solidity', 'viem · wagmi', 'EVM · Smart Contracts',
+            'System Design', 'API Architecture', 'Postgres · pgvector',
+            'CI/CD · GitHub Actions', 'Prompt Engineering', 'Data Analytics',
           ]}
         />
       </section>

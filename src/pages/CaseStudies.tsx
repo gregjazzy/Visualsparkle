@@ -66,6 +66,25 @@ const studies = (lang: 'en' | 'fr') => [
     ],
   },
   {
+    tone: 'neon' as Tone,
+    badge: 'Web3 · Smart Contracts',
+    title: lang === 'fr'
+      ? "Intégration full-stack Web3 pour une plateforme DeFi européenne."
+      : 'Full-stack Web3 integration for a European DeFi platform.',
+    meta: 'Client · Lisbon / Remote · 12 weeks · 2024',
+    challenge: lang === 'fr'
+      ? "Une plateforme DeFi en pré-lancement avait des smart contracts Solidity audités mais une intégration front-end fragile : appels Web3 non typés, gestion d'erreurs aléatoire sur les chaînes EVM, pas de monitoring on-chain, et aucune couverture de tests sur les chemins critiques (deposit, withdraw, claim)."
+      : 'A pre-launch DeFi platform had audited Solidity smart contracts but a brittle front-end integration: untyped Web3 calls, inconsistent error handling across EVM chains, no on-chain monitoring, and zero test coverage on the critical paths (deposit, withdraw, claim).',
+    approach: lang === 'fr'
+      ? "Refonte complète de la couche Web3 : clients typés en viem + wagmi, machine à états pour le cycle de vie des transactions, harnais de tests Foundry pour les contracts, suite E2E Playwright qui forke le mainnet via Anvil, monitoring on-chain Tenderly + Sentry. Code review et coaching de l'équipe sur les patterns de sécurité (re-entrancy, slippage, MEV)."
+      : 'Full rebuild of the Web3 layer: typed viem + wagmi clients, a state machine for transaction lifecycle, Foundry test harness for contracts, a Playwright E2E suite forking mainnet via Anvil, on-chain monitoring with Tenderly + Sentry. Code review and team coaching on security patterns (re-entrancy, slippage, MEV).',
+    metrics: [
+      { v: '100%', l: lang === 'fr' ? 'Couverture des chemins critiques' : 'Critical-path test coverage' },
+      { v: '0', l: lang === 'fr' ? 'Findings critiques restants à l\'audit final' : 'Critical findings on final audit' },
+      { v: '$8M+', l: lang === 'fr' ? 'TVL traitée sur les 90 premiers jours' : 'TVL processed in first 90 days' },
+    ],
+  },
+  {
     tone: 'accent' as Tone,
     badge: 'Digital Creative Content',
     title: lang === 'fr'
