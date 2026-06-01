@@ -12,14 +12,14 @@ export const translations = {
 
   // ===== HERO =====
   'hero.badge': {
-    en: 'Independent Contractor · Available for global engagements',
-    fr: 'Independent Contractor · Disponible pour missions internationales',
+    en: 'Independent Contractor · Senior Software Engineer · Available globally',
+    fr: 'Independent Contractor · Senior Software Engineer · Disponible à l\'international',
   },
-  'hero.title1': { en: 'AI Implementation Specialist', fr: 'AI Implementation Specialist' },
-  'hero.title2': { en: '& Digital Content Developer', fr: '& Digital Content Developer' },
+  'hero.title1': { en: 'Senior Software Engineer', fr: 'Senior Software Engineer' },
+  'hero.title2': { en: 'AI Systems · Digital Content Development', fr: 'AI Systems · Digital Content Development' },
   'hero.subtitle': {
-    en: 'I help organisations and digital creators unlock the full potential of Artificial Intelligence and proprietary software through algorithmic rigor, mathematical modeling and engineered prompt design. Production-grade workflows. Measurable outcomes.',
-    fr: "J'aide les organisations et les créateurs digitaux à libérer tout le potentiel de l'Intelligence Artificielle et des logiciels propriétaires grâce à la rigueur algorithmique, la modélisation mathématique et la conception de prompts d'ingénierie. Workflows production-grade. Résultats mesurables.",
+    en: 'I build production-grade software for organisations and digital creators that need reliable Artificial Intelligence systems, custom interactive tools and engineered Digital Content. Type-safe code, measurable outcomes, full ownership transferred at delivery.',
+    fr: "Je conçois des logiciels production-grade pour des organisations et créateurs digitaux qui ont besoin de systèmes d'Intelligence Artificielle fiables, d'outils interactifs sur-mesure et de Digital Content d'ingénierie. Code typé, résultats mesurables, transfert de propriété intégral à la livraison.",
   },
   'hero.cta.primary': { en: 'Book a Consultation', fr: 'Réserver une consultation' },
   'hero.cta.secondary': { en: 'Explore Services', fr: 'Découvrir les services' },
@@ -32,8 +32,8 @@ export const translations = {
   // ===== SERVICES =====
   'services.kicker': { en: '// Services', fr: '// Services' },
   'services.title': {
-    en: 'Three core engagements, engineered for production.',
-    fr: 'Trois prestations principales, conçues pour la production.',
+    en: 'Three software engineering services, built for production.',
+    fr: 'Trois prestations de software engineering, conçues pour la production.',
   },
   'services.subtitle': {
     en: 'Each service is delivered as an Independent Contractor under a formal scope of work, with defined deliverables and a transparent transfer of ownership at close-out.',
@@ -88,8 +88,8 @@ export const translations = {
 
   // ===== FOOTER =====
   'footer.tagline': {
-    en: 'AI Implementation Specialist & Digital Content Developer. Operating internationally as an Independent Contractor.',
-    fr: "AI Implementation Specialist & Digital Content Developer. Opérant à l'international en tant qu'Independent Contractor.",
+    en: 'Senior Software Engineer specialising in AI systems and Digital Content Development. Operating internationally as an Independent Contractor.',
+    fr: "Senior Software Engineer spécialisé en systèmes IA et Digital Content Development. Opérant à l'international en tant qu'Independent Contractor.",
   },
   'footer.navigate': { en: 'Navigate', fr: 'Navigation' },
   'footer.servicesCol': { en: 'Services', fr: 'Services' },
@@ -101,12 +101,12 @@ export const translations = {
   // ===== SERVICES PAGE =====
   'svc.page.kicker': { en: '// Services', fr: '// Services' },
   'svc.page.title': {
-    en: 'Engineering services for AI-driven organisations.',
-    fr: "Prestations d'ingénierie pour organisations AI-driven.",
+    en: 'Software engineering services for AI-driven organisations.',
+    fr: "Prestations de software engineering pour organisations AI-driven.",
   },
   'svc.page.subtitle': {
-    en: 'Each engagement is delivered as an Independent Contractor under a formal scope of work, with defined deliverables, evaluation criteria and a transparent transfer of ownership.',
-    fr: "Chaque mission est délivrée en tant qu'Independent Contractor sous périmètre formel, avec livrables définis, critères d'évaluation et transfert de propriété transparent.",
+    en: 'Three services delivered as a Software Engineer and Independent Contractor, under a formal scope of work, with versioned deliverables, evaluation criteria and full transfer of ownership.',
+    fr: "Trois prestations délivrées en tant que Software Engineer et Independent Contractor, sous périmètre formel, avec livrables versionnés, critères d'évaluation et transfert de propriété intégral.",
   },
   'svc.deliverables': { en: 'Deliverables', fr: 'Livrables' },
   'svc.capabilities': { en: 'Capabilities', fr: 'Compétences' },
@@ -140,20 +140,20 @@ export const translations = {
   // ===== ABOUT PAGE =====
   'about.kicker': { en: '// About', fr: '// À propos' },
   'about.title': {
-    en: "An engineer's mindset, applied to Artificial Intelligence and digital products.",
-    fr: "Un esprit d'ingénieur, appliqué à l'Intelligence Artificielle et aux produits digitaux.",
+    en: 'Software engineer. Mathematical mind. Senior partner for AI and digital products.',
+    fr: 'Software engineer. Esprit mathématique. Partenaire senior pour vos systèmes IA et produits digitaux.',
   },
   'about.p1': {
-    en: 'I have spent the last decade engineering software, training models and shipping digital products for international clients. My work sits at the intersection of three disciplines: Artificial Intelligence, Digital Content Development and applied computational logic.',
-    fr: "J'ai passé la dernière décennie à concevoir des logiciels, entraîner des modèles et livrer des produits digitaux pour des clients internationaux. Mon travail se situe à l'intersection de trois disciplines : Intelligence Artificielle, Digital Content Development et logique computationnelle appliquée.",
+    en: "I'm a software engineer with a decade of production experience: writing code, designing systems, shipping interactive applications and integrating Artificial Intelligence into real products. My core stack is Python and TypeScript, with deep work on LLM systems, custom interactive software and applied algorithmic logic.",
+    fr: "Je suis software engineer avec dix ans d'expérience en production : écriture de code, conception de systèmes, livraison d'applications interactives et intégration d'Intelligence Artificielle dans de vrais produits. Stack principale : Python et TypeScript, avec un focus profond sur les systèmes LLM, les logiciels interactifs sur-mesure et la logique algorithmique appliquée.",
   },
   'about.p2': {
     en: 'My background in advanced mathematics and algorithmic reasoning is the engine behind every engagement. It is what allows me to formalise vague product questions into measurable systems, to evaluate LLM behavior with rigor instead of intuition, and to design interactive software that scales without collapsing into entropy.',
     fr: "Mon background en mathématiques avancées et raisonnement algorithmique est le moteur de chaque mission. C'est ce qui me permet de formaliser des questions produit vagues en systèmes mesurables, d'évaluer le comportement d'un LLM avec rigueur plutôt qu'à l'intuition, et de concevoir des logiciels interactifs qui scalent sans s'effondrer dans l'entropie.",
   },
   'about.p3': {
-    en: 'I operate exclusively as an Independent Contractor, working with founders, product teams and digital content studios that need a senior, hands-on partner — not a generalist. Every engagement is scoped in writing, delivered transparently, and concluded with full transfer of ownership.',
-    fr: "J'opère exclusivement en tant qu'Independent Contractor, avec des fondateurs, des équipes produit et des studios de contenu digital qui ont besoin d'un partenaire senior et opérationnel — pas d'un généraliste. Chaque mission est cadrée par écrit, livrée en toute transparence et conclue par un transfert de propriété complet.",
+    en: 'I operate exclusively as an Independent Contractor — a senior, hands-on software engineer for founders, product teams and digital content studios that need a partner, not a generalist. Every engagement is scoped in writing, delivered transparently with versioned code, and concluded with full transfer of ownership.',
+    fr: "J'opère exclusivement en tant qu'Independent Contractor — un software engineer senior et opérationnel, pour des fondateurs, équipes produit et studios de contenu digital qui ont besoin d'un partenaire, pas d'un généraliste. Chaque mission est cadrée par écrit, livrée en toute transparence avec du code versionné, et conclue par un transfert de propriété complet.",
   },
 
   'method.kicker': { en: '// Methodology', fr: '// Méthodologie' },

@@ -131,9 +131,10 @@ export function Home() {
       <section className="border-y border-white/5 bg-ink-900/40 py-6">
         <Marquee
           items={[
-            'OpenAI · GPT-4 / GPT-5', 'Anthropic · Claude', 'Python', 'LangChain',
-            'Vector Databases', 'Data Analytics', 'Custom Interactive Software',
-            'Prompt Engineering', 'TypeScript', 'React',
+            'TypeScript', 'Python', 'React · Next.js', 'OpenAI · GPT-5',
+            'Anthropic · Claude', 'System Design', 'API Architecture',
+            'Postgres · pgvector', 'CI/CD · GitHub Actions',
+            'Custom Interactive Software', 'Prompt Engineering', 'Data Analytics',
           ]}
         />
       </section>

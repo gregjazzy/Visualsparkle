@@ -5,17 +5,21 @@ import { PageHeader } from '../components/PageHeader';
 import { ArrowRight } from 'lucide-react';
 
 const stack = [
+  { tag: 'Language', label: 'TypeScript', sub: 'React · Next.js · Node' },
+  { tag: 'Language', label: 'Python', sub: 'FastAPI · Pandas · NumPy' },
   { tag: 'LLM', label: 'OpenAI', sub: 'GPT-4 · GPT-5 · API' },
   { tag: 'LLM', label: 'Anthropic', sub: 'Claude · Tool Use' },
+  { tag: 'Backend', label: 'API Design', sub: 'REST · GraphQL · gRPC' },
+  { tag: 'Databases', label: 'Postgres · Redis', sub: 'SQL · pgvector · cache' },
+  { tag: 'Infra', label: 'Docker · K8s', sub: 'Serverless · Containers' },
+  { tag: 'CI/CD', label: 'GitHub Actions', sub: 'Build · Test · Deploy' },
+  { tag: 'Testing', label: 'Vitest · Playwright', sub: 'Unit · Integration · E2E' },
+  { tag: 'Observability', label: 'Sentry · OpenTelemetry', sub: 'Logs · Traces · Metrics' },
+  { tag: 'Orchestration', label: 'LangChain', sub: 'Agents · Chains · Tools' },
   { tag: 'Frameworks', label: 'Prompt Engineering', sub: 'CoT · ReAct · DSPy' },
   { tag: 'Software', label: 'Custom Tools', sub: 'Interactive web apps' },
-  { tag: 'Language', label: 'Python', sub: 'FastAPI · Pandas · NumPy' },
-  { tag: 'Language', label: 'TypeScript', sub: 'React · Next.js' },
   { tag: 'Data', label: 'Data Analytics', sub: 'SQL · Notebooks · Viz' },
-  { tag: 'Infra', label: 'Vector DBs', sub: 'Pinecone · Chroma · pgvector' },
-  { tag: 'Orchestration', label: 'LangChain', sub: 'Agents · Chains · Tools' },
   { tag: 'Practice', label: 'Algorithmic Modeling', sub: 'Formal logic · Complexity' },
-  { tag: 'Cloud', label: 'AWS · GCP', sub: 'Serverless · Containers' },
   { tag: 'Practice', label: 'Digital Creative Content', sub: 'Production pipelines' },
 ];
 
@@ -28,6 +32,7 @@ export function About() {
         <div className="mt-10 lg:max-w-md card-border rounded-2xl p-6 text-sm font-mono text-slate-300 space-y-2">
           {[
             { k: lang === 'fr' ? 'Rôle' : 'Role', v: 'Independent Contractor' },
+            { k: 'Title', v: 'Senior Software Engineer' },
             { k: 'Focus', v: 'AI · Digital Content' },
             { k: lang === 'fr' ? 'Langues' : 'Languages', v: 'EN · FR' },
             { k: 'Mode', v: lang === 'fr' ? '100% à distance' : 'Fully remote' },
