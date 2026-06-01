@@ -1,6 +1,6 @@
 # Gregory Mittelette — Portfolio
 
-Professional website of **Gregory Mittelette**, Independent Contractor specialising in **AI Implementation**, **Digital Content Development**, and **Computational Logic & Algorithm Consulting**.
+Professional website of **Gregory Mittelette**, **Full-Stack Software Engineer** operating as an Independent Contractor. Three core services: **AI Optimization & Prompt Engineering**, **Digital Content Development** (full-stack content platforms), and **Computational Logic & Algorithm Consulting**.
 
 Bilingual (EN / FR), built as a single-page React application with smooth animations and parallax effects.
 

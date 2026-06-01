@@ -32,7 +32,8 @@ export function About() {
         <div className="mt-10 lg:max-w-md card-border rounded-2xl p-6 text-sm font-mono text-slate-300 space-y-2">
           {[
             { k: lang === 'fr' ? 'Rôle' : 'Role', v: 'Independent Contractor' },
-            { k: 'Title', v: 'Senior Software Engineer' },
+            { k: 'Title', v: 'Full-Stack Software Engineer' },
+            { k: 'Stack', v: 'TS · Python · React · Node' },
             { k: 'Focus', v: 'AI · Digital Content' },
             { k: lang === 'fr' ? 'Langues' : 'Languages', v: 'EN · FR' },
             { k: 'Mode', v: lang === 'fr' ? '100% à distance' : 'Fully remote' },

@@ -12,14 +12,14 @@ export const translations = {
 
   // ===== HERO =====
   'hero.badge': {
-    en: 'Independent Contractor · Senior Software Engineer · Available globally',
-    fr: 'Independent Contractor · Senior Software Engineer · Disponible à l\'international',
+    en: 'Independent Contractor · Full-Stack Software Engineer · Available globally',
+    fr: 'Independent Contractor · Full-Stack Software Engineer · Disponible à l\'international',
   },
-  'hero.title1': { en: 'Senior Software Engineer', fr: 'Senior Software Engineer' },
-  'hero.title2': { en: 'AI Systems · Digital Content Development', fr: 'AI Systems · Digital Content Development' },
+  'hero.title1': { en: 'Full-Stack Software Engineer', fr: 'Full-Stack Software Engineer' },
+  'hero.title2': { en: 'AI Systems · Digital Content Platforms', fr: 'AI Systems · Digital Content Platforms' },
   'hero.subtitle': {
-    en: 'I build production-grade software for organisations and digital creators that need reliable Artificial Intelligence systems, custom interactive tools and engineered Digital Content. Type-safe code, measurable outcomes, full ownership transferred at delivery.',
-    fr: "Je conçois des logiciels production-grade pour des organisations et créateurs digitaux qui ont besoin de systèmes d'Intelligence Artificielle fiables, d'outils interactifs sur-mesure et de Digital Content d'ingénierie. Code typé, résultats mesurables, transfert de propriété intégral à la livraison.",
+    en: 'I build full-stack software for international clients: type-safe front-ends, Python and Node back-ends, API design, infrastructure and the AI systems and Digital Content Development platforms that ship Digital Creative Content to real users. Production-grade code, full ownership transferred at delivery.',
+    fr: "Je conçois du software full-stack pour des clients internationaux : front-ends typés, back-ends Python et Node, design d'API, infrastructure, et les systèmes IA et plateformes de Digital Content Development qui livrent du Digital Creative Content à de vrais utilisateurs. Code production-grade, transfert de propriété intégral à la livraison.",
   },
   'hero.cta.primary': { en: 'Book a Consultation', fr: 'Réserver une consultation' },
   'hero.cta.secondary': { en: 'Explore Services', fr: 'Découvrir les services' },
@@ -32,8 +32,8 @@ export const translations = {
   // ===== SERVICES =====
   'services.kicker': { en: '// Services', fr: '// Services' },
   'services.title': {
-    en: 'Three software engineering services, built for production.',
-    fr: 'Trois prestations de software engineering, conçues pour la production.',
+    en: 'Three full-stack engagements, built for production.',
+    fr: 'Trois missions full-stack, conçues pour la production.',
   },
   'services.subtitle': {
     en: 'Each service is delivered as an Independent Contractor under a formal scope of work, with defined deliverables and a transparent transfer of ownership at close-out.',
@@ -43,18 +43,18 @@ export const translations = {
 
   'service.ai.title': { en: 'AI Optimization & Prompt Engineering', fr: 'AI Optimization & Prompt Engineering' },
   'service.ai.desc': {
-    en: 'Advanced AI workflows: structured prompt frameworks, multi-step reasoning chains, retrieval-augmented pipelines and automation across LLM providers. I turn unstable prompts into reliable, versioned systems.',
-    fr: "Workflows IA avancés : frameworks de prompts structurés, chaînes de raisonnement multi-étapes, pipelines RAG et automatisation multi-fournisseurs LLM. Je transforme les prompts instables en systèmes fiables et versionnés.",
+    en: 'Full-stack integration of Artificial Intelligence into your product: typed prompt pipelines, retrieval-augmented systems, API design, observability and CI/CD. I ship LLM features that survive production traffic — not demo prototypes.',
+    fr: "Intégration full-stack d'Intelligence Artificielle dans votre produit : pipelines de prompts typés, systèmes RAG, design d'API, observabilité et CI/CD. Je livre des fonctionnalités LLM qui survivent au trafic de production — pas des prototypes de démo.",
   },
   'service.content.title': { en: 'Digital Content Development', fr: 'Digital Content Development' },
   'service.content.desc': {
-    en: 'Engineering of interactive learning software, custom training architectures and Digital Creative Content pipelines combining UX, data modeling and pedagogical engineering for high-retention digital experiences.',
-    fr: "Ingénierie de logiciels d'apprentissage interactifs, architectures de formation sur-mesure et pipelines de Digital Creative Content combinant UX, modélisation de données et ingénierie pédagogique pour des expériences digitales à forte rétention.",
+    en: 'Full-stack software behind your Digital Content Development: interactive web apps, custom CMSes, structured content data models, production pipelines and Digital Creative Content delivery. Back-end to front-end, you own the source code.',
+    fr: "Le software full-stack derrière votre Digital Content Development : web apps interactives, CMS sur-mesure, modèles de données structurés, pipelines de production et livraison de Digital Creative Content. Back-end et front-end, le code source vous appartient.",
   },
   'service.logic.title': { en: 'Computational Logic & Algorithm Consulting', fr: 'Computational Logic & Algorithm Consulting' },
   'service.logic.desc': {
-    en: 'Applied mathematical and algorithmic consulting for tech teams: problem decomposition, formal logic, complexity analysis and quantitative modeling. I bridge rigorous reasoning and shippable engineering.',
-    fr: "Conseil mathématique et algorithmique appliqué aux équipes tech : décomposition de problèmes, logique formelle, analyse de complexité et modélisation quantitative. Je relie raisonnement rigoureux et ingénierie livrable.",
+    en: 'Algorithmic engineering for software teams: I translate ambiguous product questions into formal specifications, reference implementations in Python or TypeScript, complexity analysis and measurable success criteria.',
+    fr: "Ingénierie algorithmique pour équipes software : je transforme des questions produit ambiguës en spécifications formelles, implémentations de référence en Python ou TypeScript, analyses de complexité et critères de succès mesurables.",
   },
 
   // ===== TESTIMONIALS =====
@@ -88,8 +88,8 @@ export const translations = {
 
   // ===== FOOTER =====
   'footer.tagline': {
-    en: 'Senior Software Engineer specialising in AI systems and Digital Content Development. Operating internationally as an Independent Contractor.',
-    fr: "Senior Software Engineer spécialisé en systèmes IA et Digital Content Development. Opérant à l'international en tant qu'Independent Contractor.",
+    en: 'Full-Stack Software Engineer building AI systems and Digital Content Development platforms. Operating internationally as an Independent Contractor.',
+    fr: "Full-Stack Software Engineer construisant des systèmes IA et plateformes de Digital Content Development. Opérant à l'international en tant qu'Independent Contractor.",
   },
   'footer.navigate': { en: 'Navigate', fr: 'Navigation' },
   'footer.servicesCol': { en: 'Services', fr: 'Services' },
@@ -101,28 +101,28 @@ export const translations = {
   // ===== SERVICES PAGE =====
   'svc.page.kicker': { en: '// Services', fr: '// Services' },
   'svc.page.title': {
-    en: 'Software engineering services for AI-driven organisations.',
-    fr: "Prestations de software engineering pour organisations AI-driven.",
+    en: 'Full-stack software engineering for AI-driven organisations.',
+    fr: "Software engineering full-stack pour organisations AI-driven.",
   },
   'svc.page.subtitle': {
-    en: 'Three services delivered as a Software Engineer and Independent Contractor, under a formal scope of work, with versioned deliverables, evaluation criteria and full transfer of ownership.',
-    fr: "Trois prestations délivrées en tant que Software Engineer et Independent Contractor, sous périmètre formel, avec livrables versionnés, critères d'évaluation et transfert de propriété intégral.",
+    en: 'Three services delivered as a Full-Stack Software Engineer and Independent Contractor — under a formal scope of work, with versioned deliverables, evaluation criteria and full transfer of ownership at handover.',
+    fr: "Trois prestations délivrées en tant que Full-Stack Software Engineer et Independent Contractor — sous périmètre formel, avec livrables versionnés, critères d'évaluation et transfert de propriété intégral à la livraison.",
   },
   'svc.deliverables': { en: 'Deliverables', fr: 'Livrables' },
   'svc.capabilities': { en: 'Capabilities', fr: 'Compétences' },
   'svc.engagement': { en: 'Typical engagement', fr: 'Mission type' },
 
   'svc.ai.long': {
-    en: 'I design, ship and harden production-grade AI workflows for organisations that need reliable, versioned and measurable LLM systems. From single-prompt utilities to multi-agent orchestrations — built with engineering discipline.',
-    fr: "Je conçois, déploie et fiabilise des workflows IA production-grade pour des organisations qui ont besoin de systèmes LLM versionnés et mesurables. Du prompt unitaire à l'orchestration multi-agents — avec discipline d'ingénieur.",
+    en: 'I design, build and ship full-stack AI features: back-end APIs around LLM calls, typed prompt pipelines with evaluation harnesses, retrieval-augmented systems with vector databases, observability and CI/CD. From single-prompt utilities to multi-agent orchestrations — engineered to survive production traffic.',
+    fr: "Je conçois, construis et livre des features IA full-stack : back-ends API autour des appels LLM, pipelines de prompts typés avec harnais d'évaluation, systèmes RAG avec vector databases, observabilité et CI/CD. Du prompt unitaire à l'orchestration multi-agents — pensé pour survivre au trafic de production.",
   },
   'svc.content.long': {
-    en: 'I engineer interactive learning software and Digital Creative Content systems that combine UX, data modeling and pedagogical engineering. Proprietary software, not slide decks — built to be measured, iterated and owned by the client.',
-    fr: "J'ingénieurise des logiciels d'apprentissage interactifs et des systèmes de Digital Creative Content combinant UX, modélisation de données et ingénierie pédagogique. Du logiciel propriétaire, pas des slides — mesurable, itérable et propriété du client.",
+    en: 'I engineer the full-stack software platforms behind your Digital Content Development: interactive web apps in React and TypeScript, back-end APIs in Python or Node, structured content data models, custom CMSes, production pipelines and Digital Creative Content delivery. Proprietary software, end-to-end, you own the source code.',
+    fr: "J'ingénieurise les plateformes software full-stack derrière votre Digital Content Development : web apps interactives en React et TypeScript, back-ends API en Python ou Node, modèles de données structurés, CMS sur-mesure, pipelines de production et livraison de Digital Creative Content. Du logiciel propriétaire de bout en bout, dont vous possédez le code source.",
   },
   'svc.logic.long': {
-    en: 'Applied mathematical and algorithmic consulting for tech teams. I bridge formal reasoning and shippable engineering — turning ambiguous product questions into clean algorithmic statements with measurable success criteria.',
-    fr: "Conseil mathématique et algorithmique appliqué aux équipes tech. Je relie raisonnement formel et ingénierie livrable — en transformant des questions produit ambiguës en énoncés algorithmiques propres aux critères de succès mesurables.",
+    en: 'Algorithmic engineering for software teams. I translate ambiguous product questions into formal algorithmic specifications, reference implementations in Python or TypeScript, complexity analysis and benchmark harnesses — bridging mathematical reasoning and shippable software.',
+    fr: "Ingénierie algorithmique pour équipes software. Je transforme des questions produit ambiguës en spécifications algorithmiques formelles, implémentations de référence en Python ou TypeScript, analyses de complexité et harnais de benchmark — entre raisonnement mathématique et software livrable.",
   },
 
   // Process
@@ -140,20 +140,20 @@ export const translations = {
   // ===== ABOUT PAGE =====
   'about.kicker': { en: '// About', fr: '// À propos' },
   'about.title': {
-    en: 'Software engineer. Mathematical mind. Senior partner for AI and digital products.',
-    fr: 'Software engineer. Esprit mathématique. Partenaire senior pour vos systèmes IA et produits digitaux.',
+    en: 'Full-Stack Software Engineer. Mathematical mind. Senior partner for AI and content platforms.',
+    fr: 'Full-Stack Software Engineer. Esprit mathématique. Partenaire senior pour vos plateformes IA et contenu.',
   },
   'about.p1': {
-    en: "I'm a software engineer with a decade of production experience: writing code, designing systems, shipping interactive applications and integrating Artificial Intelligence into real products. My core stack is Python and TypeScript, with deep work on LLM systems, custom interactive software and applied algorithmic logic.",
-    fr: "Je suis software engineer avec dix ans d'expérience en production : écriture de code, conception de systèmes, livraison d'applications interactives et intégration d'Intelligence Artificielle dans de vrais produits. Stack principale : Python et TypeScript, avec un focus profond sur les systèmes LLM, les logiciels interactifs sur-mesure et la logique algorithmique appliquée.",
+    en: "I'm a Full-Stack Software Engineer with a decade of production experience. I write code on both ends of the stack — type-safe front-ends in React and TypeScript, back-ends in Python and Node, API design, databases, infrastructure, CI/CD and observability — for organisations integrating Artificial Intelligence into real products and shipping Digital Content Development at scale.",
+    fr: "Je suis Full-Stack Software Engineer avec dix ans d'expérience en production. J'écris du code des deux côtés de la stack — front-ends typés en React et TypeScript, back-ends en Python et Node, design d'API, bases de données, infrastructure, CI/CD et observabilité — pour des organisations intégrant de l'Intelligence Artificielle dans de vrais produits et livrant du Digital Content Development à l'échelle.",
   },
   'about.p2': {
     en: 'My background in advanced mathematics and algorithmic reasoning is the engine behind every engagement. It is what allows me to formalise vague product questions into measurable systems, to evaluate LLM behavior with rigor instead of intuition, and to design interactive software that scales without collapsing into entropy.',
     fr: "Mon background en mathématiques avancées et raisonnement algorithmique est le moteur de chaque mission. C'est ce qui me permet de formaliser des questions produit vagues en systèmes mesurables, d'évaluer le comportement d'un LLM avec rigueur plutôt qu'à l'intuition, et de concevoir des logiciels interactifs qui scalent sans s'effondrer dans l'entropie.",
   },
   'about.p3': {
-    en: 'I operate exclusively as an Independent Contractor — a senior, hands-on software engineer for founders, product teams and digital content studios that need a partner, not a generalist. Every engagement is scoped in writing, delivered transparently with versioned code, and concluded with full transfer of ownership.',
-    fr: "J'opère exclusivement en tant qu'Independent Contractor — un software engineer senior et opérationnel, pour des fondateurs, équipes produit et studios de contenu digital qui ont besoin d'un partenaire, pas d'un généraliste. Chaque mission est cadrée par écrit, livrée en toute transparence avec du code versionné, et conclue par un transfert de propriété complet.",
+    en: 'I operate exclusively as an Independent Contractor — a senior, hands-on Full-Stack Software Engineer for founders, product teams and digital content studios that need a partner, not a generalist. Every engagement is scoped in writing, delivered transparently with versioned code on a shared Git repository, and concluded with full transfer of ownership at handover.',
+    fr: "J'opère exclusivement en tant qu'Independent Contractor — un Full-Stack Software Engineer senior et opérationnel, pour des fondateurs, équipes produit et studios de contenu digital qui ont besoin d'un partenaire, pas d'un généraliste. Chaque mission est cadrée par écrit, livrée en toute transparence avec du code versionné sur un dépôt Git partagé, et conclue par un transfert de propriété intégral.",
   },
 
   'method.kicker': { en: '// Methodology', fr: '// Méthodologie' },
